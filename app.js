@@ -9,7 +9,7 @@ var el = React.createElement('section', null, [
         React.createElement ('tr', null, [ 
             React.createElement ('th', null, "hereo"), React.createElement ('th', null, "age") ]) ,
         
-            heroes.map( (heroe) => React.createElement('tr',null,heroe))
+            heroes.map( (heroe) => React.createElement('tr',null, React.createElement ( 'td', null, heroe )))
      ]),    
            
 
